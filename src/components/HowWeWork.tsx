@@ -3,26 +3,23 @@ import { useReveal } from '../hooks/useReveal'
 const steps = [
   {
     n: 1,
-    title: 'Llamada de 30 minutos',
-    description: 'Conocemos tu negocio y tus objetivos.',
+    title: 'Nos escribes',
+    description: 'Cuéntanos de tu negocio por WhatsApp.',
   },
   {
     n: 2,
-    title: 'Diseño personalizado',
-    description:
-      'Creamos una propuesta moderna enfocada en convertir visitantes en clientes.',
+    title: 'Diseñamos',
+    description: 'Preparamos tu página con tu info y fotos.',
   },
   {
     n: 3,
-    title: 'Revisión y ajustes',
-    description:
-      'Pulimos el contenido, imágenes y detalles contigo antes de publicar.',
+    title: 'Revisas',
+    description: 'Ves el resultado y pedimos los ajustes necesarios.',
   },
   {
     n: 4,
-    title: 'Publicación y soporte',
-    description:
-      'Dejamos todo funcionando y seguimos apoyándote con mantenimiento y mejoras.',
+    title: 'Publicamos',
+    description: 'La dejamos en línea con tu dominio.',
   },
 ]
 
@@ -38,11 +35,10 @@ export function HowWeWork() {
       <div className="max-w-container-max mx-auto">
         <div className="text-center max-w-2xl mx-auto mb-unit-lg">
           <h2 className="font-headline-md text-headline-md text-on-background mb-4">
-            ¿Cómo trabajamos?
+            Cómo trabajamos
           </h2>
           <p className="font-body-md text-body-md text-on-surface-variant">
-            Un proceso simple y transparente para que tengas tu página lista sin
-            complicaciones.
+            Un proceso sencillo, sin complicaciones.
           </p>
         </div>
 
@@ -52,9 +48,9 @@ export function HowWeWork() {
           {steps.map((step) => (
             <div
               key={step.n}
-              className="relative z-10 bg-surface-container-lowest p-6 rounded-2xl border border-surface-container-highest shadow-ambient hover:-translate-y-1 transition-transform"
+              className="relative z-10 bg-surface-container-lowest p-6 rounded-2xl border border-surface-container-highest"
             >
-              <div className="w-12 h-12 rounded-full bg-primary-container text-white flex items-center justify-center font-bold text-xl mb-4 mx-auto md:mx-0 shadow-lg">
+              <div className="w-12 h-12 rounded-full bg-primary-container text-white flex items-center justify-center font-bold text-xl mb-4 mx-auto md:mx-0">
                 {step.n}
               </div>
               <h3 className="font-bold text-lg mb-2 text-center md:text-left">

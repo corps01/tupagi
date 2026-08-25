@@ -11,7 +11,7 @@ const items = [
   {
     icon: 'chat',
     title: 'WhatsApp directo',
-    description: 'Botón flotante y formularios conectados a tu número.',
+    description: 'Botón flotante para que te escriban fácil.',
   },
   {
     icon: 'map',
@@ -21,27 +21,27 @@ const items = [
   {
     icon: 'photo_library',
     title: 'Galería de fotos',
-    description: 'Muestra tu trabajo, instalaciones o productos con calidad.',
+    description: 'Muestra tu trabajo, instalaciones o productos.',
   },
   {
     icon: 'help',
     title: 'Preguntas frecuentes',
-    description: 'Resuelve dudas comunes y reduce fricción antes del contacto.',
+    description: 'Resuelve dudas comunes antes del contacto.',
   },
   {
     icon: 'search',
     title: 'SEO básico',
-    description: 'Optimización inicial para aparecer mejor en Google.',
+    description: 'Configuración inicial para buscadores.',
   },
   {
     icon: 'devices',
     title: 'Responsive',
-    description: 'Perfecta en celular, tablet y computadora.',
+    description: 'Se ve bien en celular, tablet y computadora.',
   },
   {
     icon: 'cloud_done',
     title: 'Hosting y dominio',
-    description: 'Configuración incluida para publicar sin complicaciones.',
+    description: 'Configuración incluida para publicar tu página.',
   },
 ]
 
@@ -57,7 +57,7 @@ export function Includes() {
       <div className="max-w-container-max mx-auto">
         <SectionHeading
           title="¿Qué incluye tu página?"
-          subtitle="Todo lo esencial para que tu negocio se vea profesional y empiece a generar clientes."
+          subtitle="Todo lo esencial para que tu negocio se vea profesional en internet."
         />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-unit-md">
           {items.map((item) => (

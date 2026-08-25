@@ -1,4 +1,5 @@
-import { Icon } from './Icon'
+import logo from '../assets/logo.png'
+import { WHATSAPP_URL } from '../lib/contact'
 
 export function Navbar() {
   return (
@@ -7,17 +8,21 @@ export function Navbar() {
       id="main-nav"
     >
       <div className="flex justify-between items-center max-w-container-max mx-auto px-margin-mobile md:px-gutter h-20">
-        <a href="#" className="flex items-center gap-2 group">
-          <Icon
-            name="language"
-            className="text-primary text-3xl group-hover:scale-110 transition-transform"
+        <a href="#" className="flex items-center group">
+          <img
+            src={logo}
+            alt="2Pagi"
+            className="h-10 md:h-12 w-auto object-contain group-hover:opacity-90 transition-opacity"
           />
-          <span className="text-headline-md font-headline-md font-bold text-primary tracking-tight">
-            Tú Pagi
-          </span>
         </a>
 
         <div className="hidden md:flex items-center gap-8">
+          <a
+            className="text-on-surface-variant hover:text-primary transition-colors duration-200 font-button-text text-button-text"
+            href="#incluye"
+          >
+            Qué incluye
+          </a>
           <a
             className="text-on-surface-variant hover:text-primary transition-colors duration-200 font-button-text text-button-text"
             href="#servicios"
@@ -28,13 +33,7 @@ export function Navbar() {
             className="text-on-surface-variant hover:text-primary transition-colors duration-200 font-button-text text-button-text"
             href="#paquetes"
           >
-            Paquetes
-          </a>
-          <a
-            className="text-on-surface-variant hover:text-primary transition-colors duration-200 font-button-text text-button-text"
-            href="#ejemplos"
-          >
-            Ejemplos
+            Precio
           </a>
           <a
             className="text-on-surface-variant hover:text-primary transition-colors duration-200 font-button-text text-button-text"
@@ -45,10 +44,12 @@ export function Navbar() {
         </div>
 
         <a
-          href="#cotizar"
+          href={WHATSAPP_URL}
+          target="_blank"
+          rel="noopener noreferrer"
           className="bg-primary-container text-white px-6 py-3 rounded-xl font-button-text text-button-text hover:opacity-90 hover:-translate-y-0.5 active:translate-y-0 transition-all shadow-ambient shadow-primary-container/20"
         >
-          Cotizar
+          WhatsApp
         </a>
       </div>
     </nav>

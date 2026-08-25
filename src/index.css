@@ -1,17 +1,17 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #5300b7;
+  --color-primary: #e85d04;
   --color-surface-container-highest: #e1e3e4;
   --color-secondary: #575e70;
   --color-tertiary: #004c1e;
   --color-surface-container-lowest: #ffffff;
   --color-on-tertiary-fixed-variant: #005321;
   --color-surface-bright: #f8f9fa;
-  --color-on-primary-fixed-variant: #5b00c5;
-  --color-surface-tint: #7331df;
+  --color-on-primary-fixed-variant: #c2410c;
+  --color-surface-tint: #f97316;
   --color-tertiary-fixed: #6bff8f;
-  --color-inverse-primary: #d3bbff;
+  --color-inverse-primary: #fdba74;
   --color-surface-dim: #d9dadb;
   --color-error: #ba1a1a;
   --color-on-tertiary: #ffffff;
@@ -27,10 +27,10 @@
   --color-on-error: #ffffff;
   --color-on-secondary-fixed: #141b2b;
   --color-on-tertiary-container: #55eb7e;
-  --color-on-surface-variant: #4a4455;
-  --color-outline: #7b7486;
-  --color-outline-variant: #ccc3d7;
-  --color-primary-fixed: #ebddff;
+  --color-on-surface-variant: #4a4453;
+  --color-outline: #7b7480;
+  --color-outline-variant: #d7cfc5;
+  --color-primary-fixed: #ffedd5;
   --color-on-secondary: #ffffff;
   --color-inverse-surface: #2e3132;
   --color-surface-variant: #e1e3e4;
@@ -41,12 +41,12 @@
   --color-on-primary: #ffffff;
   --color-on-secondary-container: #5c6274;
   --color-error-container: #ffdad6;
-  --color-primary-fixed-dim: #d3bbff;
-  --color-on-primary-container: #dac5ff;
-  --color-primary-container: #6d28d9;
+  --color-primary-fixed-dim: #fdba74;
+  --color-on-primary-container: #ffedd5;
+  --color-primary-container: #ea580c;
   --color-tertiary-container: #00672c;
-  --color-secondary-container: #d9dff5;
-  --color-on-primary-fixed: #250059;
+  --color-secondary-container: #f3e8df;
+  --color-on-primary-fixed: #7c2d12;
   --color-background: #f8f9fa;
 
   --radius-DEFAULT: 1rem;
@@ -104,7 +104,7 @@
   --text-body-md--font-weight: 400;
 
   --shadow-ambient: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
-  --shadow-glow: 0 0 0 4px rgba(109, 40, 217, 0.1);
+  --shadow-glow: 0 0 0 4px rgba(234, 88, 12, 0.12);
 
   --max-width-container-max: 1280px;
 }
@@ -125,7 +125,7 @@
 }
 
 .gradient-text {
-  background: linear-gradient(to right, #5300b7, #6d28d9);
+  background: linear-gradient(to right, #e85d04, #f97316);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;

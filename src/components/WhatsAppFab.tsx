@@ -1,7 +1,5 @@
 import { Icon } from './Icon'
-
-const WHATSAPP_URL =
-  'https://wa.me/525500000000?text=Hola%20T%C3%BA%20Pagi%2C%20quiero%20cotizar%20mi%20p%C3%A1gina'
+import { WHATSAPP_URL } from '../lib/contact'
 
 export function WhatsAppFab() {
   return (

@@ -7,45 +7,22 @@ const services = [
     icon: 'storefront',
     title: 'Google Business Profile',
     description:
-      'Creación y optimización para aparecer en búsquedas locales y Google Maps.',
-  },
-  {
-    icon: 'star',
-    title: 'Google Reviews',
-    description:
-      'Estrategias para conseguir más reseñas y mejorar tu reputación.',
+      'Ayuda para configurar tu perfil en búsquedas locales y Maps.',
   },
   {
     icon: 'campaign',
     title: 'Google Ads',
-    description: 'Campañas para atraer clientes listos para comprar.',
+    description: 'Campañas de anuncios si quieres atraer más visitas.',
   },
   {
     icon: 'thumb_up',
-    title: 'Facebook & Instagram Ads',
-    description: 'Publicidad para generar mensajes, llamadas y citas.',
+    title: 'Facebook e Instagram Ads',
+    description: 'Publicidad en redes para generar mensajes y llamadas.',
   },
   {
     icon: 'calendar_month',
     title: 'Sistema de citas',
-    description:
-      'Agenda automática para dentistas, psicólogos, barberías, spas y más.',
-  },
-  {
-    icon: 'shopping_cart',
-    title: 'E-commerce',
-    description: 'Tienda en línea con pagos y catálogo de productos.',
-  },
-  {
-    icon: 'smart_toy',
-    title: 'Automatizaciones con IA',
-    description:
-      'Respuestas automáticas, seguimiento de clientes y asistentes para WhatsApp.',
-  },
-  {
-    icon: 'qr_code_2',
-    title: 'Tarjetas digitales con QR',
-    description: 'Comparte tu contacto, ubicación y redes en segundos.',
+    description: 'Agenda en línea para que tus clientes reserven contigo.',
   },
 ]
 
@@ -61,7 +38,7 @@ export function Services() {
       <div className="max-w-container-max mx-auto">
         <SectionHeading
           title="Servicios adicionales"
-          subtitle="Complementa tu página con herramientas que atraen más clientes y automatizan tu negocio."
+          subtitle="Opciones extra si quieres complementar tu página. Pregúntanos por WhatsApp."
         />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-unit-md">
           {services.map((service) => (
