@@ -4,6 +4,7 @@ import { TrustBar } from './components/TrustBar'
 import { Includes } from './components/Includes'
 import { Services } from './components/Services'
 import { HowWeWork } from './components/HowWeWork'
+import { SatisfiedClients } from './components/SatisfiedClients'
 import { Packages } from './components/Packages'
 import { FinalCTA } from './components/FinalCTA'
 import { Footer } from './components/Footer'
@@ -19,6 +20,7 @@ function App() {
         <Includes />
         <Services />
         <HowWeWork />
+        <SatisfiedClients />
         <Packages />
         <FinalCTA />
       </main>

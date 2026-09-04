@@ -14,6 +14,7 @@ const columns: { title: string; links: FooterLink[] }[] = [
       { label: 'Qué incluye', href: '#incluye' },
       { label: 'Servicios', href: '#servicios' },
       { label: 'Cómo trabajamos', href: '#proceso' },
+      { label: 'Clientes', href: '#clientes' },
       { label: 'Precio', href: '#paquetes' },
       { label: 'Contacto', href: '#contacto' },
     ],

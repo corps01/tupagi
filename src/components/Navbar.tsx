@@ -31,6 +31,12 @@ export function Navbar() {
           </a>
           <a
             className="text-on-surface-variant hover:text-primary transition-colors duration-200 font-button-text text-button-text"
+            href="#clientes"
+          >
+            Clientes
+          </a>
+          <a
+            className="text-on-surface-variant hover:text-primary transition-colors duration-200 font-button-text text-button-text"
             href="#paquetes"
           >
             Precio

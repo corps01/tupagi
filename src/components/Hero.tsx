@@ -23,9 +23,6 @@ export function Hero() {
 
           <p className="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
             Diseño, WhatsApp, Google Maps y publicación incluida.
-            <span className="block mt-2 font-semibold text-on-background">
-              $2,499 MXN
-            </span>
           </p>
 
           <div className="flex flex-col sm:flex-row gap-unit-sm mt-unit-sm">
@@ -48,8 +45,8 @@ export function Hero() {
         </div>
 
         <div className="relative z-10 w-full h-[420px] sm:h-[500px] lg:h-[560px] flex items-center justify-center perspective-1000">
-          <div className="relative w-full max-w-md mx-auto group">
-            <div className="absolute top-0 left-0 w-full h-64 bg-surface-container-lowest border border-surface-container-highest rounded-xl shadow-2xl overflow-hidden rotate-y-neg-5 group-hover:rotate-y-0 group-hover:rotate-x-0 transition-transform duration-700 ease-out">
+          <div className="relative w-full max-w-md mx-auto">
+            <div className="absolute top-0 left-0 w-full h-64 bg-surface-container-lowest border border-surface-container-highest rounded-xl shadow-2xl overflow-hidden rotate-y-neg-5">
               <div className="h-6 bg-surface-container border-b border-surface-container-highest flex items-center px-3 gap-1.5">
                 <div className="w-2.5 h-2.5 rounded-full bg-error-container" />
                 <div className="w-2.5 h-2.5 rounded-full bg-secondary-container" />
@@ -62,7 +59,7 @@ export function Hero() {
               />
             </div>
 
-            <div className="absolute -bottom-16 -right-4 sm:-bottom-20 sm:-right-10 w-44 sm:w-48 h-80 sm:h-96 bg-surface-container-lowest border-4 border-surface-container-highest rounded-[2rem] shadow-2xl overflow-hidden rotate-y-10 group-hover:rotate-y-0 group-hover:rotate-x-0 transition-transform duration-700 ease-out delay-100 flex flex-col">
+            <div className="absolute -bottom-16 -right-4 sm:-bottom-20 sm:-right-10 w-44 sm:w-48 h-80 sm:h-96 bg-surface-container-lowest border-4 border-surface-container-highest rounded-[2rem] shadow-2xl overflow-hidden flex flex-col">
               <div className="bg-[#128C7E] text-white p-4 flex items-center gap-3">
                 <Icon name="arrow_back" fill />
                 <div className="flex-1">
