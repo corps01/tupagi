@@ -3,6 +3,7 @@ import { SectionHeading } from './SectionHeading'
 import { useReveal } from '../hooks/useReveal'
 import wavefrontPreview from '../assets/client-wavefront.png'
 import bajaPreview from '../assets/client-baja.png'
+import littleSweetPeasPreview from '../assets/client-littlesweetpeas.jpg'
 
 type Client = {
   name: string
@@ -31,11 +32,12 @@ const clients: Client[] = [
       'Para nuestra clínica médica necesitábamos transmitir confianza y profesionalismo. La página quedó ordenada, con WhatsApp y llamadas a la acción bien claras.',
   },
   {
-    name: 'Tu negocio aquí',
-    category: 'Próximo proyecto',
+    name: 'Little Sweet Peas',
+    url: 'https://littlesweetpeas.vercel.app/',
+    preview: littleSweetPeasPreview,
+    category: 'Estancia infantil',
     review:
-      'Espacio reservado para el siguiente cliente. Cuando tengamos el sitio real, lo agregamos aquí.',
-    placeholder: true,
+      'Queríamos una página sencilla para que los papás nos encontraran fácil, vieran la estancia y nos contactaran por WhatsApp. Quedó limpia, clara y lista para recibir informes.',
   },
 ]
 
